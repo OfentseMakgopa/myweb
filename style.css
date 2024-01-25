@@ -543,5 +543,79 @@ article .icon {
     background-color: #717171;
 }
 
-/*Analog Clock*/
+/**/
+@media screen and (max-width: 600px) {
+  body, html {
+      font-size: 14px; /* Smaller base font size for readability */
+  }
+
+  nav, .nav-links, .logo, .section-container, .btn-container {
+      flex-direction: column; /* Stack elements vertically for better mobile layout */
+      align-items: center; /* Center alignment for better aesthetics */
+  }
+
+  nav {
+      padding: 1rem 0; /* Add some padding for better touch interaction */
+  }
+
+  .nav-links {
+      padding: 0.5rem; /* Add padding for clickable area */
+      font-size: 1.2rem; /* Larger font size for better readability */
+  }
+
+  .section__pic-container, .project-img, .project-img2, .project-img3 {
+      width: 90%; /* Make images responsive */
+      height: auto; /* Adjust height automatically */
+      margin: 1rem auto; /* Center images with margin */
+  }
+
+  .section-container, .about-details-container, .experience-details-container, .contact-info-upper-container {
+      flex-direction: column; /* Stack sections vertically */
+      padding: 1rem; /* Add padding for spacing */
+  }
+
+  .article-container {
+      flex-direction: column; /* Stack articles vertically */
+      gap: 1rem; /* Adjust gap for spacing */
+  }
+
+  .btn {
+      width: 100%; /* Full-width buttons for easier touch interaction */
+      margin: 0.5rem 0; /* Add margin for spacing */
+  }
+
+  .hamburger-icon {
+      display: block; /* Ensure hamburger menu is visible */
+  }
+
+  #hamburger-nav {
+      display: flex; /* Adjust hamburger nav display for mobile */
+  }
+
+  .menu-links {
+      width: 100%; /* Full width dropdown menu */
+      text-align: center; /* Center align menu items */
+  }
+
+  /* Adjust section padding and margins for mobile */
+  section {
+      margin: 1rem; /* Smaller margin for sections */
+      padding: 1rem; /* Padding for content inside sections */
+  }
+
+  /* Modify font sizes and text alignments as needed */
+  .title, .section__text, p, .experience-sub-title, .project-title {
+      font-size: 1.2rem; /* Adjust font sizes for readability */
+      text-align: center; /* Center text for a cleaner look */
+  }
+
+  /* Adjust contact section layout */
+  #contact {
+      padding: 1rem; /* Padding around contact section */
+      flex-direction: column; /* Stack contact info vertically */
+  }
+
+  /* Additional responsive adjustments as necessary */
+  /* ... */
+}
 
