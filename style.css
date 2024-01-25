@@ -617,5 +617,42 @@ article .icon {
 
   /* Additional responsive adjustments as necessary */
   /* ... */
+
+  /* Adjustments for the About section */
+  #about {
+    /* Your specific styles for mobile, if any */
+}
+
+#about p {
+    font-size: 1rem; /* Smaller font size for mobile */
+    /* Other styles remain unchanged */
+}
+
+.about-containers,
+.about-details-container {
+    flex-direction: column; /* Stack items vertically on small screens */
+    gap: 1rem; /* Adjust gap for smaller screens */
+}
+
+.about-pic {
+    width: 90%; /* Adjust width for mobile screens */
+    height: auto; /* Keep aspect ratio */
+    margin: 0 auto; /* Center the image */
+}
+
+.details-container {
+    padding: 1rem; /* Adjust padding for smaller screens */
+}
+
+.section__pic-container {
+    width: 90%; /* Adjust width for smaller screens */
+    height: auto; /* Adjust height automatically */
+}
+
+/* Ensuring project images are the same size */
+.project-img, .project-img2, .project-img3 {
+    width: 100%; /* Full width on mobile screens */
+    height: auto; /* Adjust height automatically */
+}
 }
 
