@@ -599,10 +599,9 @@ article .icon {
 
   /* Adjust section padding and margins for mobile */
   section {
-      margin: 1rem; /* Smaller margin for sections */
-      padding: 1rem; /* Padding for content inside sections */
-  }
-
+    margin-bottom: 2rem; /* Increase bottom margin for better spacing between sections */
+    padding: 1rem; /* Adjust padding for a more compact layout */
+    height: auto; /* Set height to auto to accommodate content */}
   /* Modify font sizes and text alignments as needed */
   .title, .section__text, p, .experience-sub-title, .project-title {
       font-size: 1.2rem; /* Adjust font sizes for readability */
@@ -654,5 +653,58 @@ article .icon {
     width: 100%; /* Full width on mobile screens */
     height: auto; /* Adjust height automatically */
 }
+
+/*Projects*/
+
+
+.project-img, .project-img2, .project-img3 {
+  width: 100%; /* Full width on mobile screens */
+  height: auto; /* Adjust height automatically */
+  margin-top: 0; /* Remove negative margin */
+  margin-left: 0; /* Center align for mobile */
+  margin-right: 0; /* Center align for mobile */
+}
+
+/* Remove hover effects for touch devices */
+.project-img:hover, .project-img2:hover, .project-img3:hover {
+  transform: none;
+}
+
+.project-title {
+  font-size: 1.2rem; /* Adjust font size for better readability on mobile */
+  /* Other styles can remain unchanged */
+}
+
+/* Adjust contact section layout for mobile */
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem; /* Add padding for spacing */
+  height: auto; /* Adjust height to content */
+}
+
+.contact-info-upper-container {
+  flex-direction: column; /* Stack elements vertically */
+  width: 90%; /* Adjust width for mobile */
+  margin: 1rem auto; /* Centering the container */
+  padding: 1rem; /* Add padding for spacing */
+}
+
+.contact-info-container {
+  flex-direction: column; /* Stack contact info vertically */
+  gap: 1rem; /* Adjust gap for better layout */
+  align-items: center; /* Center align items */
+}
+
+.contact-info-container p {
+  font-size: 1rem; /* Adjust font size for better readability */
+}
+
+.contact-icon, .email-icon {
+  width: 40px; /* Adjust icon size for mobile */
+  height: 40px; /* Adjust icon size for mobile */
+}
+
 }
 
