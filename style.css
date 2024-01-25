@@ -544,7 +544,7 @@ article .icon {
 }
 
 /**/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 414px) {
   body, html {
       font-size: 14px; /* Smaller base font size for readability */
   }
